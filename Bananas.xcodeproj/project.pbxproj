@@ -17,8 +17,8 @@
 		FECD7057167A032200B8064D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD7056167A032200B8064D /* Default.png */; };
 		FECD7059167A032200B8064D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD7058167A032200B8064D /* Default@2x.png */; };
 		FECD705B167A032200B8064D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECD705A167A032200B8064D /* Default-568h@2x.png */; };
-		FECD7103167A111600B8064D /* Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7102167A111600B8064D /* Banana.m */; };
-		FECD7107167A112000B8064D /* BananaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7106167A112000B8064D /* BananaFactory.m */; };
+		FECD712B167A144600B8064D /* Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD7128167A144600B8064D /* Banana.m */; };
+		FECD712C167A144600B8064D /* BananaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FECD712A167A144600B8064D /* BananaFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +37,10 @@
 		FECD7056167A032200B8064D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FECD7058167A032200B8064D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FECD705A167A032200B8064D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FECD7101167A111600B8064D /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
-		FECD7102167A111600B8064D /* Banana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banana.m; sourceTree = "<group>"; };
-		FECD7105167A112000B8064D /* BananaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BananaFactory.h; sourceTree = "<group>"; };
-		FECD7106167A112000B8064D /* BananaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BananaFactory.m; sourceTree = "<group>"; };
+		FECD7127167A144600B8064D /* Banana.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
+		FECD7128167A144600B8064D /* Banana.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Banana.m; sourceTree = "<group>"; };
+		FECD7129167A144600B8064D /* BananaFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BananaFactory.h; sourceTree = "<group>"; };
+		FECD712A167A144600B8064D /* BananaFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BananaFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +90,10 @@
 		FECD704A167A032200B8064D /* Bananas */ = {
 			isa = PBXGroup;
 			children = (
+				FECD7126167A144600B8064D /* Classes */,
 				FECD7053167A032200B8064D /* AppDelegate.h */,
 				FECD7054167A032200B8064D /* AppDelegate.m */,
 				FECD704B167A032200B8064D /* Supporting Files */,
-				FECD7101167A111600B8064D /* Banana.h */,
-				FECD7102167A111600B8064D /* Banana.m */,
-				FECD7105167A112000B8064D /* BananaFactory.h */,
-				FECD7106167A112000B8064D /* BananaFactory.m */,
 			);
 			path = Bananas;
 			sourceTree = "<group>";
@@ -113,6 +110,17 @@
 				FECD705A167A032200B8064D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECD7126167A144600B8064D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FECD7127167A144600B8064D /* Banana.h */,
+				FECD7128167A144600B8064D /* Banana.m */,
+				FECD7129167A144600B8064D /* BananaFactory.h */,
+				FECD712A167A144600B8064D /* BananaFactory.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +208,8 @@
 			files = (
 				FECD7051167A032200B8064D /* main.m in Sources */,
 				FECD7055167A032200B8064D /* AppDelegate.m in Sources */,
-				FECD7103167A111600B8064D /* Banana.m in Sources */,
-				FECD7107167A112000B8064D /* BananaFactory.m in Sources */,
+				FECD712B167A144600B8064D /* Banana.m in Sources */,
+				FECD712C167A144600B8064D /* BananaFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
