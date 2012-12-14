@@ -10,4 +10,9 @@
 
 @implementation Banana
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Banana from: %@", self.countryOfOrigin];
+}
+
 @end
+
